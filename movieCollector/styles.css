@@ -14,7 +14,7 @@ body {
     background-color: #f8f9fa;
 }
 
-header {
+header{
     background-color: #343a40;
     color: #fff;
     padding: 20px;
@@ -50,7 +50,7 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
-    margin-top: 50px;
+    margin-top: 5px;
 }
 
 .help-container, .register-container {
@@ -96,3 +96,13 @@ footer {
 }
 
 .content { padding-bottom: 180px; } /* Ajoute un espace en bas du contenu */
+
+
+header h1+p{
+    background-color: aliceblue;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+    
+}
